@@ -149,7 +149,7 @@ body{
 }
 
 #plan h1{
-    margin-bottom: 30px;
+    margin-bottom: 80px;
 }
 
 #plan label{
@@ -158,6 +158,8 @@ body{
 
 .top{
     margin: 1%;
+    margin-bottom: 50px;
+    min-width: 1000px;
 }
 
 .top h1{
@@ -193,7 +195,7 @@ body{
     
 
     .sub-title{
-        height: 30px;
+        height: 40px;
         border-bottom: 1px solid grey;
     }
 
@@ -274,6 +276,7 @@ body{
 
 .Business-title{
     font-size: 40px;
+    margin-bottom: 50px;
 }
 
     /* row */
@@ -333,7 +336,7 @@ body{
     .loghi{
         width: 100vw;
         min-height: 500px;
-        margin-top: 30px;
+        margin-top: 20px;
     }
 
     .loghi-left img, .loghi-right img{
@@ -375,7 +378,7 @@ body{
             max-width: 250px;
         }
 
-        .top, .bottom{
+        .loghi .top, .loghi .bottom{
             min-height: 250px;
             width: 30vw;
             margin: 0;
