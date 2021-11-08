@@ -431,8 +431,8 @@ body{
     .prova-button a{
         text-decoration: none;
         color:black;
-        padding: 10px;
         background-color: white;
+        padding: 10px 60px;
     }
     
     .prova-button a:hover{
@@ -441,6 +441,9 @@ body{
     /* prova */
 
 /* section Business2 */
+
+
+
 
 
 
