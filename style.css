@@ -25,6 +25,7 @@ body{
         line-height: 70px;
         position: fixed;
         background-color: white;
+        z-index: 999;
     }
 
     .menu::after{
@@ -162,7 +163,7 @@ body{
     }
 
     .cont{
-        min-height: 850px;
+        min-height: 800px;
     }
 
     .single, .team-top1, .team-top2{
@@ -197,6 +198,49 @@ body{
 
 
 /* section plan */
+
+
+/* section partner */
+
+.partner::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.partner{
+    padding: 5% 15%;
+}
+
+    /* img */
+    .partner img{
+        max-height: 500px;
+        float: left;
+    }
+    /* img */
+
+    /* text */
+    .partner .text{
+        float: left;
+        margin-left: 10%;
+        min-width: 38%;
+        padding-top: 10%;
+        line-height: 30px;
+    }
+
+    .text h1{
+        margin-bottom: 20px;
+    }
+
+    .text a{
+        background-color: white;
+        color: black;
+        border: 1px solid grey;
+    }
+    /* text */
+
+/* section partner */
+
 
 
 
