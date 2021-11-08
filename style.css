@@ -311,6 +311,139 @@ body{
 
 
 
+/* section Business2 */
+
+.Business2-title{
+    padding: 5% 15%;
+    max-width: 1050px;
+}
+
+.Business2-title h1{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+    /* loghi */
+    .loghi:after{
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+    .loghi{
+        width: 100vw;
+        min-height: 500px;
+        margin-top: 30px;
+    }
+
+    .loghi-left img, .loghi-right img{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    
+
+    .loghi-left, .loghi-text, .loghi-right{
+        float: left;
+    }
+
+    .loghi-left, .loghi-right{
+        min-height: 500px;
+        width: 30vw;
+    }
+
+    .loghi-text{
+        min-height: 500px;
+        width: 40vw;
+        padding: 3%;
+        background-color: indigo;
+    }
+
+    .loghi-text p{
+        margin: 40px 0px;
+    }
+
+        .loghi img{
+            max-height: 80px;
+            padding: 10px;
+        }
+
+        .special{
+            max-height: 10px;
+            max-width: 250px;
+        }
+
+        .top, .bottom{
+            min-height: 250px;
+            width: 30vw;
+            margin: 0;
+        }
+        
+        .loghi .top::after, .loghi .bottom::after{
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        .top-left, .top-right, .bottom-left, .bottom-right{
+            float: left;
+            min-height: 250px;
+            width: 15vw;
+            position: relative;
+            background-color: hotpink;
+            border: black 1px solid;
+        }
+
+    /* loghi */
+
+    /* prova */
+    .prova{
+        padding: 10% 15%;
+        background-color: lightblue;
+        
+    }
+    
+    .prova::after{
+        content: "";
+        clear: both;
+        display: table;
+    }
+    
+    .prova-title, .prova-button{
+        float: left;
+    }
+    
+    .prova-title{
+        max-width: 700px;
+    }
+    
+    .prova-title h1{
+        font-size: 40px;
+    }
+    
+    .prova-button {
+        font-size: 20px;
+        margin-left: 100px;
+    }
+    
+    .prova-button a{
+        text-decoration: none;
+        color:black;
+        padding: 10px;
+        background-color: white;
+    }
+    
+    .prova-button a:hover{
+        text-decoration: underline;
+    }
+    /* prova */
+
+/* section Business2 */
+
+
+
 
 
 
