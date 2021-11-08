@@ -446,6 +446,79 @@ body{
 /* section Business2 */
 
 
+/* domande */
+.domande{
+    padding: 10% 15%;
+}
+
+.domande .titolone{
+    border-bottom: 1px solid grey;
+}
+
+.domande h1{
+    padding-bottom: 5%;
+    font-size: 40px;
+}
+
+.sez .show{
+    padding: 5% 0;
+    border-bottom: 1px solid grey;
+    cursor: pointer;
+
+}
+
+.sez p{
+    display: none;
+    padding-top: 5%;
+}
+
+.show:hover p{
+    display: block;
+    scroll-behavior: smooth;
+}
+/* domande */
+
+
+
+
+/* footer */
+    .footer{
+        padding: 5% 10%;
+        background-color: black;
+        min-height: 500px;
+    }
+
+    .footer::after{
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+        .footer div{
+            float: left;
+            margin-right: 10%;
+        }
+
+        .footer ul{
+            padding: 10% 0%;
+        }
+
+        .footer li{
+            list-style-type: none;
+            font-size: small;
+            line-height: 20px;
+        }
+        .footer a, .footer h2{
+            text-decoration: none;
+            color: white;
+        }
+
+        .footer a:hover{
+            text-decoration: underline;
+        }
+
+
+/* footer */
 
 
 
