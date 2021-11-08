@@ -6,17 +6,16 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     font-family: 'Open Sans', sans-serif;
 }
 /* header */
 
     /* nav */
-
-    .logo img{
-        vertical-align: middle;
-    }
-
 
     .menu{
         top: 0;
@@ -32,6 +31,10 @@ body{
         content: "";
         clear: both;
         display: table;
+    }
+
+    .logo img{
+        vertical-align: middle;
     }
 
     .logo, .left{
@@ -76,7 +79,7 @@ body{
     .jumbo{
         margin-top: 70px;
         width: 100vw;
-        height: 700px;
+        min-height: 700px;
         position: relative;
     }
 
@@ -129,5 +132,71 @@ body{
     /* section image */
 
 /* header */
+
+
+
+/* section plan */
+
+#plan{
+    padding: 5% 15%;
+
+}
+
+#plan h1{
+    margin-bottom: 30px;
+}
+
+#plan label{
+    margin-right: 10px;
+}
+
+.top{
+    margin: 1%;
+}
+
+    /* cont */
+    .cont::after{
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+    .cont{
+        min-height: 850px;
+    }
+
+    .single, .team-top1, .team-top2{
+        width: 31.3%;
+        min-height: 800px;
+        border: 1px solid grey;
+        float: left;
+        margin: 1%;
+    }
+
+    
+
+    .sub-title{
+        height: 30px;
+        border-bottom: 1px solid grey;
+    }
+
+    
+
+    
+
+    /* cont */
+
+    /* team-bottom */
+    .team-bottom{
+        min-height: 200px;
+        margin: 1%;
+        border: 1px solid grey;
+        display: block;
+    }
+    /* team-bottom */
+
+
+/* section plan */
+
 
 
