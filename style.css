@@ -125,8 +125,9 @@ body{
         list-style-type: none;
     }
 
-    i{
+    .text i{
         color: black;
+        font-size: 50px;
     }
 
     .block img{
@@ -196,6 +197,99 @@ body{
         border-bottom: 1px solid grey;
     }
 
+
+        .sub-title{
+            position: relative;
+        }
+
+        .text-subtitle{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+
+
+        .main-text{
+            padding: 8% 5%;
+        }
+            
+            
+            .top-main div{
+                padding: 5px 0;
+            }
+        
+            .top-main .mese{
+                font-size: small;
+                color: grey;
+            }
+
+
+            .function-main{
+                padding: 20px 0;
+            }
+
+            .function-main div{
+                padding: 5px 0;
+            }
+
+            .righe::after{
+                content: "";
+                clear: both;
+                display: table;
+            }
+
+            .righe div{
+                float: left;
+                max-width: 90%;
+                padding-left: 3px;
+            }
+
+
+
+            .button-main *{
+                padding-bottom: 20px;
+            }
+
+            .try-button{
+                text-decoration: none;
+                color: white;
+                padding: 5px 55px;
+                background-color: blue;
+            }
+
+            .try-button:hover{
+                text-decoration: underline;
+            }
+
+            .main-text hr{
+                width: 50px;
+                margin: 10px 0;
+            }
+
+            .punti-salienti *{
+                padding: 5px 0;
+            }
+
+            .punti-salienti li{
+                list-style: none;
+            }
+
+            li{
+                content: "";
+                clear: both;
+                display: table;
+            }
+
+            .punti-salienti ul li div{
+                float: left;
+                max-width: 90%;
+            }
+
+
+            
+
+            
     /* cont */
 
     /* team-bottom */
@@ -205,6 +299,38 @@ body{
         border: 1px solid grey;
         display: block;
     }
+
+        .team-bottom .main-text{
+            content: "";
+            clear: both;
+            display: table;
+            padding: 5% 3%;
+        }
+
+        .left-main{
+            float: left;
+            max-width: 75%;
+        }
+
+        .left-main *{
+            padding: 10px 0;
+        }
+
+        .right-main{
+            float: right;
+            max-width: 25%;
+        }
+
+        .contatta{
+            text-decoration: none;
+            color: white;
+            padding: 5px 40px;
+            background-color: blue;
+        }
+
+        .contatta:hover{
+            text-decoration: underline;
+        }
     /* team-bottom */
 
 
