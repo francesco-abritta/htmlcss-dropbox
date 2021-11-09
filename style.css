@@ -118,7 +118,6 @@ body{
 
     .button a{
         text-decoration: none;
-        
     }
 
     .button li{
@@ -147,7 +146,6 @@ body{
 
 #plan{
     padding: 5% 15%;
-
 }
 
 #plan h1{
@@ -475,11 +473,16 @@ body{
     }
 
     .loghi-text{
-        min-height: 500px;
+        height: 500px;
         width: 40%;
         padding: 3%;
         background-color: indigo;
+        overflow-y: scroll;
     }
+
+    .loghi-text::-webkit-scrollbar {
+        display: none;
+      }
 
     .loghi-text p{
         margin: 40px 0px;
