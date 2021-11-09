@@ -182,7 +182,7 @@ body{
 
     .single, .team-top1, .team-top2{
         width: 30%;
-        min-height: 800px;
+        min-height: 1000px;
         border: 1px solid grey;
         float: left;
     }
@@ -490,6 +490,10 @@ body{
             padding: 10px;
         }
 
+        .loghi-left img, .loghi-right img{
+            filter: invert(1);
+        }
+
         .special {
             max-height: 10px;
             max-width: 250px;
@@ -513,6 +517,43 @@ body{
             position: relative;
             background-color: hotpink;
             border: black 1px solid;
+        }
+
+
+        .loghi-left .top-left{
+            background-color: rgb(114, 170, 114);
+        }
+
+        .loghi-left .top-right{
+            background-color: rgb(56, 0, 0);
+        }
+
+        .loghi-left .bottom-left{
+            background-color: rgb(53, 150, 182);
+        }
+
+        .loghi-left .bottom-right{
+            background-color: red;
+        }
+
+        .loghi-right .top-left{
+            background-color: red;
+        }
+
+        .loghi-right .top-right{
+            background-color: lightblue;
+        }
+
+        .loghi-right .bottom-left{
+            background-color: rgb(0, 0, 122);
+        }
+
+        .loghi-right .bottom-right{
+            background-color: rgb(218, 218, 0);
+        }
+
+        .loghi-text{
+            background-color: rgb(201, 198, 198);
         }
 
     /* loghi */
@@ -577,20 +618,52 @@ body{
 }
 
 .sez .show{
-    padding: 5% 0;
     border-bottom: 1px solid grey;
     cursor: pointer;
-
 }
 
 .sez p{
     display: none;
-    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 .show:hover p{
     display: block;
 }
+
+.question::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.question{
+    padding: 5% 0;
+}
+
+.question h3{
+    float: left;
+}
+
+.question div{
+    float: right;
+}
+.frecciasu{
+    display: none;
+}
+
+.frecciasu, .frecciagiu{
+    font-size: 30px;
+}
+
+.show:hover .question .frecciagiu{
+    display: none;
+}
+
+.show:hover .question .frecciasu{
+    display: block;
+}
+
+
 /* domande */
 
 
@@ -603,34 +676,51 @@ body{
         min-height: 500px;
     }
 
-    .footer::after{
+    .menu-footer::after{
         content: "";
         clear: both;
         display: table;
     }
 
-        .footer div{
+        .menu-footer div{
             float: left;
             margin-right: 10%;
         }
 
-        .footer ul{
+        .menu-footer ul{
             padding: 10% 0%;
         }
 
-        .footer li{
+        .menu-footer li{
             list-style-type: none;
             font-size: small;
             line-height: 20px;
+            padding: 5px 0;
         }
-        .footer a, .footer h2{
+        .menu-footer a, .menu-footer h2{
             text-decoration: none;
             color: white;
         }
 
-        .footer a:hover{
+        .menu-footer a:hover{
             text-decoration: underline;
         }
 
+        .footer hr{
+            width: 100px;
+            margin: 10px 0;
+            color: white;
+            margin-top: 100px;
+        }
+
+
+        .italiano{
+            margin-top: 50px;
+        }
+
+        .italiano a{
+            text-decoration: none;
+            color: grey;
+        }
 
 /* footer */
